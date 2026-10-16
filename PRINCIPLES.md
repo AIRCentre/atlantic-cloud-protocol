@@ -1,28 +1,27 @@
 # Principles
 
-Six principles generate the clauses. A clause traces to one of them, or it is cut. Labels are
-permanent: reordering does not renumber, and a retired label is not reused.
+The clauses are derived from six principles. Each clause traces to at least one of them; a clause
+that traces to none is cut. Labels are permanent: reordering does not renumber, and a retired label
+is not reused. Terms are defined in [README.md](README.md#terms).
 
-- **P1. Independence before federation.** A node stands alone first, and everything federated is
-  additive and opted into.
+- **P1. Independence before federation.** A node works on its own first. Anything it shares with
+  the federation is extra, and the node chooses to share it.
 
-- **P2. Sovereignty is not traded for sharing.** Accounting and reciprocity stand in for trust, so
-  neither party gives up custody to gain capacity.
+- **P2. Sovereignty is not traded for sharing.** Nodes rely on records and reciprocity, not
+  trust. No node gives up custody of its data to use another node's resources.
 
-- **P3. Uniform obligations, free implementations.** The cloud defines what every node owes,
-  identically for all of them. How a node meets it is its own affair.
+- **P3. Uniform obligations, free implementations.** The assembly defines what every node owes,
+  identically for all of them. Each node decides how to meet it.
 
-- **P4. Membership is paid in transparency.** Publishing is mandatory, prescribed and not
-  negotiable: the cloud states what must be published and in what form, and a node that will not
-  publish leaves. There is no obscure membership. Because everything required is published, every
-  obligation can be checked - checkability is a consequence of the transparency.
+- **P4. Membership requires transparency.** Publishing is mandatory. The assembly states what
+  must be published and in what form, and a node that will not publish leaves. Because every
+  required record is published, every obligation can be checked.
 
-- **P5. Nothing is unaccounted for.** Every object, every workload and every allocation traces to
-  a record naming what it is, where it came from and what it was for. The demand is total and
-  admits no exception. Inspecting content is simply not needed to meet it: a complete account
-  already answers the question.
+- **P5. Everything is accounted for.** Every object, every workload and every allocation traces
+  to a record of what it is, where it came from and what it was for. There are no exceptions.
+  Checking this needs no inspection of content, only the complete record.
 
-- **P6. The members make the rules, in advance.** Every rule is theirs to write and to revise as
-  the world changes; none is frozen, because a frozen rule goes blind. A decision is taken under
-  rules already published, and the rules governing how rules change cost more to change than the
-  rest.
+- **P6. The nodes make the rules, in advance.** Through the assembly, the nodes write every rule
+  and revise it when circumstances change. No rule is frozen, because a rule that cannot change
+  stops fitting. The assembly decides only under rules published before the decision. The
+  amendment procedure is harder to change than the other rules.
